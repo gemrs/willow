@@ -1,10 +1,6 @@
 package: github.com/gemrs/willow/log
 import:
 - package: github.com/mattn/go-isatty
-  version: d6aaa2f596ae91a0a58d8e7f2c79670991468e4f
 - package: github.com/fatih/color
-  version: 9aae6aaa22315390f03959adca2c4d395b02fcef
 - package: github.com/mattn/go-colorable
-  version: 51a7e7a8b1665b25ca173debdc8d52d493348f15
 - package: github.com/shiena/ansicolor
-  version: d445752f6f66f9cd987722f109149f6799cdf1de
