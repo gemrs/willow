@@ -34,6 +34,14 @@ func (m *Module) Dispatch(lvl Level, msg string) {
 	}
 }
 
+func (m *Module) Tag() string {
+	return m.tag
+}
+
+func (m *Module) Ctx() Context {
+	return m.ctx
+}
+
 func (m *Module) Info(format string, args ...interface{}) {
 	msg := fmt.Sprintf(format, args...)
 	m.Dispatch(LvlInfo, msg)
